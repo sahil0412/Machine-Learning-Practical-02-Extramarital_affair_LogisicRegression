@@ -1,0 +1,34 @@
+{
+    "rate_marriage": {
+        "min": 1,
+        "max": 5
+    },
+    "age": {
+        "min": 17.5,
+        "max": 42
+    },
+    "yrs_married": {
+        "min": 0.5,
+        "max": 23
+    },
+    "children": {
+        "min": 0.0000,
+        "max": 5.5
+    },
+    "religious": {
+        "min": 1.0,
+        "max": 4.0
+    },
+    "educ": {
+        "min": 9.0,
+        "max": 20.00
+    },
+    "occupation": {
+        "min": 1,
+        "max": 6.0
+    },
+    "occupation_husb": {
+        "min": 1,
+        "max": 6.0
+    }
+}

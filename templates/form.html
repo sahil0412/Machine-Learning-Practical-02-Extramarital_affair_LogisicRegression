@@ -1,0 +1,50 @@
+<html>
+<body>
+<form action="{{url_for('predict_datapoint')}}" method="POST">
+    <div class="form-group">
+        <label for="rate_marriage">rate_marriage:</label>
+        <input type="text" id="rate_marriage" name="rate_marriage" placeholder="Enter ratin g of marriage expected range 1.00 to 5.00" style="width: 100%;">
+    </div>
+
+    <div class="form-group">
+        <label for="age">age:</label>
+        <input type="text" id="age" name="age" placeholder="Enter age expected range 17.00 to 42.00" style="width: 100%;">
+    </div>
+
+    <div class="form-group">  
+        <label for="yrs_married">yrs_married:</label>
+        <input type="text" id="yrs_married" name="yrs_married" placeholder="Enter years of mrriage value expected range 0.5 to 23" style="width: 100%;">
+    </div>
+    
+    <div class="form-group">
+        <label for="children">children:</label>
+        <input type="text" id="children" name="children" placeholder="Enter no of children expected range 0.0 to 5.5" style="width: 100%;">
+    </div>
+  
+    <div class="form-group">
+        <label for="religious">religious:</label>
+        <input type="text" id="religious" name="religious" placeholder="Enter religious expected range 1.0 to 4" style="width: 100%;">
+    </div>   
+
+    <div class="form-group">
+      <label for="educ">educ:</label>
+      <input type="text" id="educ" name="educ" placeholder="Enter educ value expected range 9 to 20" style="width: 100%;">
+  </div>  
+
+    <div class="form-group">
+      <label for="occupation">occupation:</label>
+      <input type="text" id="occupation" name="occupation" placeholder="Enter occupation value expected range 1 to 6.00" style="width: 100%;">
+    </div>  
+
+
+    <div class="form-group">
+      <label for="occupation_husb">occupation_husb:</label>
+      <input type="text" id="occupation_husb" name="occupation_husb" placeholder="Enter occupation_husb value expected rangee 1 to 6" style="width: 100%;">
+    </div>
+
+
+<div style="clear:both;"></div>
+  <input type="submit" value="Submit">
+</form>
+</body>
+</html>

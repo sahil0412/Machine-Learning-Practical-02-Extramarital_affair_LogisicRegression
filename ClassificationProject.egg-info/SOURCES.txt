@@ -5,3 +5,10 @@ ClassificationProject.egg-info/SOURCES.txt
 ClassificationProject.egg-info/dependency_links.txt
 ClassificationProject.egg-info/requires.txt
 ClassificationProject.egg-info/top_level.txt
+src/__init__.py
+src/exception.py
+src/logger.py
+src/utils.py
+src/components/__init__.py
+src/components/data_ingestion.py
+src/pipeline/__init__.py

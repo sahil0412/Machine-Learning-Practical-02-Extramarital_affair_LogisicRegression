@@ -95,4 +95,4 @@ Next Step are :-<br>
 a. we can work on mobile application<br>
 
 ## Deployable Link
-https://machine-learning-practical-01-boston.onrender.com/predict
+https://machine-learning-practical-02.onrender.com/predict
